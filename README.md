@@ -10,7 +10,7 @@ nodejs-express-react-boiler-plate is a basic setup for a react front end server 
 
 ## cd into project and istall dependencies
 
-### from root
+In root directory
 
 `cd client`
 
