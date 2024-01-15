@@ -12,6 +12,10 @@ app.get("/", (req, res) => {
   res.send("Our boiler plate nodejs server is sending!");
 });
 
+app.get("/node-server", (req, res) => {
+  res.send("Node server responding!");
+});
+
 app.listen(port, () => {
   console.log(`App is listening on port:${port}`);
 });

@@ -1,0 +1,11 @@
+#miscellaneous
+*.env
+
+#build file
+/client/build
+
+
+*node_modules
+npm-debug.log
+.DS_Store
+
