@@ -6,25 +6,25 @@ nodejs-express-react-boiler-plate is a basic setup for a react front end server 
 
 ## open terminal and clone repository
 
-'git clone https://github.com/anthonyss09/nodejs-express-react-boiler-plate.git'
+`git clone https://github.com/anthonyss09/nodejs-express-react-boiler-plate.git`
 
 ## cd into project and istall dependencies
 
 ### from root
 
-'cd client'
-'npm install'
+`cd client`
+`npm install`
 
 ### from root
 
-'cd server'
-'npm install'
+`cd server`
+`npm install`
 
 ## run scripts
 
 ### from root
 
-'cd server'
-'npm run dev'
+`cd server`
+`npm run dev`
 
 Project can now be viewed in browser at http://localhost:3000
