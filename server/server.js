@@ -13,8 +13,6 @@ app.get("/", (req, res) => {
 });
 
 app.get("/node-server", (req, res) => {
-  res.header("Access-Control-Allow-Origin", "*");
-
   res.send("Node server responding!");
 });
 
