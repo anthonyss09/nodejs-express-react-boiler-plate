@@ -7,10 +7,10 @@ function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    //fetch response message from nodejs backend and store in state
+    //fetch response message from nodejs backend and store in states
     const fetchData = async () => {
       try {
-        const response = await axios.get("/node-server");
+        const response = await axios.get("http://localhost:8080/node-server");
         setMessage(response.data);
       } catch (error) {
         console.log(error);
